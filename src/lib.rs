@@ -1,6 +1,6 @@
 #![no_std]
 
-//! # Test Test
+//! DS18B20 temperature sensor driver for embedded-hal 1.0 over a OneWire bus.
 
 use embedded_hal::delay::DelayNs;
 use embedded_hal::digital::{InputPin, OutputPin};
